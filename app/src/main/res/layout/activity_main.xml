@@ -16,6 +16,9 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:outlineAmbientShadowColor="@color/purple_700"
+        android:cacheColorHint="@color/purple_700"
+        android:outlineSpotShadowColor="@color/purple_700"
         tools:ignore="MissingConstraints" />
 
 
