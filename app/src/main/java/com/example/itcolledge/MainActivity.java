@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
         ListView listView = findViewById(R.id.list);
 
-
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
                 this,
                 android.R.layout.simple_list_item_1,
@@ -45,16 +44,13 @@ public class MainActivity extends AppCompatActivity {
                 switch (i){
                     case 0:
                         intent.putExtra("Key", one);
-
                         break;
                     case 1:
                         intent.putExtra("Key", two);
-
                         break;
                     case 2:
                         intent.putExtra("Key", three);
                         break;
-
                 }
                 startActivity(intent);
             }

@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.TextView;
 
 public class ActivityEWM extends AppCompatActivity {
@@ -19,4 +21,9 @@ public class ActivityEWM extends AppCompatActivity {
         text.setText(bundle.getString("Key"));
         text2.setText(bundle.getString("Key2"));
     }
+    protected void RES (){
+        Intent intent = new Intent(ActivityEWM.this, MainActivity.class);
+        startActivity(intent);
+    }
+
 }
